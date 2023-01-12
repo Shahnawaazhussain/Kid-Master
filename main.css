@@ -1,0 +1,260 @@
+/* 
+font-family: 'Mochiy Pop One', sans-serif;
+font-family: 'Montserrat', sans-serif; 
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* justify-content: center;
+    align-items: center; */
+    font-family: 'Montserrat', sans-serif; 
+}
+:root {
+    --main: #e73269;
+}
+.navbar {
+    padding: 2%;
+}
+.navbar-brand {
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 2rem;
+    color: #e73269;
+}
+.nav-item a {
+    font-size: 1rem;
+    color: #e73269;
+}
+.join-btn {
+    color: #e73269;
+    font-size: 1rem;
+    border: 1px solid #e73269;
+    border-radius: 30px;
+    padding: 5px 20px;
+}
+.join-btn:hover {
+    color: #fff;
+    background-color: #e73269;
+}
+@media  screen and (min-width: 992px) {
+    .navbar-nav {
+        margin: 0 auto;
+    }
+    .nav-item {
+        margin: 0 10px;
+    }
+}
+
+/* Hero Banner Starts */
+.hero-header {
+    margin: 2% 5%;
+}
+.hero-col {
+    margin:  auto;
+}
+.hero-col h1 {
+    font-size: 2.5rem;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin: 30px auto;
+}
+.hero-head {
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+.hero-col p {
+    font-size: 18px;
+}
+.hero-col .btn {
+    margin: 15px 0;
+}
+.hero-col img {
+    width: 90%;
+    height: auto;
+}
+@media screen and (max-width:768px) {
+    .hero-header {
+        margin: 4%;
+        text-align: center;
+    }
+    .hero-col h1 {
+        font-size: 2rem;
+        font-family: 'Mochiy Pop One', sans-serif;
+        margin: 30px auto;
+    }
+    .hero-head {
+        font-family: 'Mochiy Pop One', sans-serif;
+    }
+    .hero-col p {
+        font-size: 16px;
+    }
+    .hero-col img {
+        width: 90%;
+        height: auto;
+    }
+}
+
+/* Category */
+.category-heading {
+    text-align: center;
+    margin: 4% auto;
+}
+.category-heading h5 {
+    color:#e73269
+}
+.category-heading h1 {
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+.category-card {   
+/* background-color: #f3f3f3; */
+display: flex;
+padding:  3% 2%;
+margin: 30px auto;
+/* border: 1px solid #e73269; */
+}
+.category-card i {
+    font-size: 2rem;
+    color: #e73269;
+    margin-right:  20px;
+    vertical-align: middle;
+}
+.category-card h5 {
+    font-family: 'Mochiy Pop One', sans-serif;
+
+}
+
+/* About Section */
+.container-form {
+    margin:  5% auto;
+}
+.register-detail {
+    margin: auto;
+    padding: 0 20px;
+}
+.register h2 {
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin: 20px 0;
+}
+.register-detail ul{
+    list-style: none;
+    padding-left: 0%;
+    margin-bottom: 30px;
+}
+.register-detail ul i {
+    margin: 8px;
+    color: #e73269;
+}
+
+.register-detail button {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    border: 1px solid #e73269;
+    background-color: #e73269;
+    border-radius: 50px;
+}
+
+.register-detail a:hover {
+    border: 1px solid #CD003E;
+    background-color: #CD003E;
+}
+.register-form {
+    margin: 0 auto;
+    justify-content: baseline;
+    background-color: #e73269;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.head {
+    margin-bottom: 20px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.head h2 {
+    padding: 10px 0;
+}
+
+.input-box {
+    margin: 20px auto 10px;
+    width: 70%;
+    padding: 15px 10px;
+    border: 2px solid #e73269;
+    border-radius: 10px;
+} 
+
+.input-box:focus {
+    outline: none;
+}
+
+.register-form button {
+    width: 70%;
+    text-decoration: none;
+    margin: 20px auto 30px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #e73269;
+    border: 1px solid #e73269;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+.register-form button:focus {
+    color: #fff;
+    background-color: #e73269;
+    border: 1px solid #fff;
+}
+
+@media  screen and (max-width:550px) {
+    .register-detail {
+        margin: 50px auto;
+    }
+    
+}
+
+/* Teams */
+.team {
+    text-align: center;
+    margin: 100px auto
+}
+.teams-card img {
+    width: 70%;
+    height: auto;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+.teams-card h4 {
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: #e73269;
+}
+
+/* Footer Starts */
+.footer {
+    background-color: #CD003E;
+    padding: 5%;
+    color:  #fff;
+    text-align: left;
+    align-items:flex-start;
+}
+.footer-box {
+    padding:  15px;
+}
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 10px;
+    padding: 0;
+    text-align: left;
+    color: var(--light);
+    font-weight: normal;
+    text-decoration: none;
+}
+.btn-link i {
+    margin-right: 10px;
+}
+.footer .btn.btn-link:hover {
+    color: #00B98E;
+    font-weight: 600;
+}
+@media screen and (max-width: 550px) {
+.footer{
+    padding: 5% 3%;
+}
+}
